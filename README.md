@@ -9,7 +9,7 @@
 
 <!-- 
 
-| BOJ | DP | []() | [🖍]() | 
+| 23/ / | BOJ | DP | []() | [🖍]() | 
 
 -->
 
@@ -21,4 +21,6 @@
 | 22/12/28 | BOJ | DP | [설탕 배달](https://www.acmicpc.net/problem/2839) | [🖍](https://github.com/heerucan/PS/discussions/12) |
 | 22/12/29 | BOJ | DP | [부녀회장이 될테야](https://www.acmicpc.net/problem/2775) | [🖍](https://github.com/heerucan/PS/discussions/14) |
 | 22/12/30 | BOJ | DP | [구간 합 구하기4](https://www.acmicpc.net/problem/11659) | [🖍](https://github.com/heerucan/PS/discussions/15) | 
+| 23/01/03 | BOJ | 백트레킹 | [N과M(1)](https://www.acmicpc.net/problem/15649) | [🖍](https://github.com/heerucan/PS/discussions/17) | 
+| 23/01/03 | PRG | 구현 | [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334) | [🖍](https://github.com/heerucan/PS/discussions/18) | 
 
