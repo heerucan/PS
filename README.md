@@ -9,7 +9,7 @@
 
 <!-- 
 
-| 23/ / | BOJ | DP | []() | [🖍](https://github.com/heerucan/PS/discussions/) | 
+| 23/ / | BOJ |  | [](https://www.acmicpc.net/problem/) | [🖍](https://github.com/heerucan/PS/discussions/) | 
 
 -->
 
@@ -26,6 +26,7 @@
 | 23/01/07 | BOJ | DP | [RGB거리](https://www.acmicpc.net/problem/1149) | [🖍](https://github.com/heerucan/PS/discussions/19) | 
 | 23/01/10 | BOJ | 구현 | [치킨배달](https://www.acmicpc.net/problem/1654) | [🖍](https://github.com/heerucan/PS/discussions/23) | 
 | 23/01/10  | BOJ | 이진탐색 | [랜선자르기](https://www.acmicpc.net/problem/15686) | [🖍](https://github.com/heerucan/PS/discussions/22) | 
+| 23/01/13 | BOJ | DFS | [바이러스](https://www.acmicpc.net/problem/2606) | [🖍](https://github.com/heerucan/PS/discussions/25) | 
 | 23/01/1 | BOJ | 백트레킹 | [N과M(1)]() | [🖍](https://github.com/heerucan/PS/discussions/) | 
 | 23/01/1 | PRG | 구현 | [개인정보 수집 유효기간]() | [🖍](https://github.com/heerucan/PS/discussions/) | 
 
