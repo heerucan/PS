@@ -28,6 +28,9 @@
 | 23/01/10  | BOJ | 이진탐색 | [랜선자르기](https://www.acmicpc.net/problem/15686) | [🖍](https://github.com/heerucan/PS/discussions/22) | 
 | 23/01/13 | BOJ | DFS | [바이러스](https://www.acmicpc.net/problem/2606) | [🖍](https://github.com/heerucan/PS/discussions/25) | 
 | 23/01/13 | BOJ | DFS | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [🖍](https://github.com/heerucan/PS/discussions/26) | 
-| 23/01/1 | BOJ | 백트레킹 | [N과M(1)]() | [🖍](https://github.com/heerucan/PS/discussions/) | 
-| 23/01/1 | PRG | 구현 | [개인정보 수집 유효기간]() | [🖍](https://github.com/heerucan/PS/discussions/) | 
+| 23/01/ | BOJ | DFS | [단지 번호 붙이기](https://www.acmicpc.net/problem/2667) | [🖍](https://github.com/heerucan/PS/discussions/28) | 
+| 23/01/ | BOJ | BFS | [](https://www.acmicpc.net/problem/2178) | [🖍](https://github.com/heerucan/PS/discussions/27) | 
+| 23/01/17 | PRG | 구현 | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | [🖍](https://github.com/heerucan/PS/discussions/29) | 
+| 23/01/ | BOJ |  | [적록색맹](https://www.acmicpc.net/problem/) | [🖍](https://github.com/heerucan/PS/discussions/) | 
+| 23/01/ | BOJ | 완전탐색 | [모의고사](https://www.acmicpc.net/problem/) | [🖍](https://github.com/heerucan/PS/discussions/) | 
 
