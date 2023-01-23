@@ -33,5 +33,6 @@
 | 23/01/17 | PRG | 구현 | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | [🖍](https://github.com/heerucan/PS/discussions/29) | 
 | 23/01/20 | BOJ | DFS | [유기농배추](https://www.acmicpc.net/problem/1012) | [🖍](https://github.com/heerucan/PS/discussions/30) | 
 | 23/01/21 | BOJ | DFS | [적록색맹](https://www.acmicpc.net/problem/10026) | [🖍](https://github.com/heerucan/PS/discussions/31) | 
-| 23/01/ | BOJ | 완전탐색 | [모의고사](https://www.acmicpc.net/problem/) | [🖍](https://github.com/heerucan/PS/discussions/) | 
+| 23/01/22 | PRG | 완전탐색 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | [🖍](https://github.com/heerucan/PS/discussions/33) | 
+| 23/01/23 | PRG | BFS | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | [🖍](https://github.com/heerucan/PS/discussions/34) | 
 
