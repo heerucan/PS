@@ -1,6 +1,7 @@
 # Problem Solving
 > 중요한 건 꺾이지 않는 마음으로 꾸준히 알고리즘 문제를 푸는 것.  
-나는 할 수 있다. 있냐?
+나는 할 수 있따! 코테 씹어먹기.  
+> **마침내 피할 수 없는 아..아아..알고리즘 스터디** & **1일 1알고리즘 인증 스터디**와 함께... 
 ### 이론정리 및 문제풀이는 [Discussions](https://github.com/heerucan/PS/discussions)
 
 [문제집 참고 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
@@ -10,6 +11,7 @@
 <!-- 
 
 | 23/ / | BOJ |  | [](https://www.acmicpc.net/problem/) | [🖍](https://github.com/heerucan/PS/discussions/) | 
+| 23/ / | PRG |  | []() | [🖍](https://github.com/heerucan/PS/discussions/) | 
 
 -->
 
@@ -35,4 +37,6 @@
 | 23/01/21 | BOJ | DFS | [적록색맹](https://www.acmicpc.net/problem/10026) | [🖍](https://github.com/heerucan/PS/discussions/31) | 
 | 23/01/22 | PRG | 완전탐색 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | [🖍](https://github.com/heerucan/PS/discussions/33) | 
 | 23/01/23 | PRG | BFS | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | [🖍](https://github.com/heerucan/PS/discussions/34) | 
+| 23/01/24 | PRG | 완전탐색 | [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) | [🖍](https://github.com/heerucan/PS/discussions/35) |
+| 23/01/25 | PRG | DFS | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | [🖍](https://github.com/heerucan/PS/discussions/36) |
 
