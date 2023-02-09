@@ -39,4 +39,13 @@
 | 23/01/23 | PRG | BFS | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | [🖍](https://github.com/heerucan/PS/discussions/34) | 
 | 23/01/24 | PRG | 완전탐색 | [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) | [🖍](https://github.com/heerucan/PS/discussions/35) |
 | 23/01/25 | PRG | DFS | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | [🖍](https://github.com/heerucan/PS/discussions/36) |
+| 23/01/26 | PRG | 문자열 | [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301) | [🖍](https://github.com/heerucan/PS/discussions/37) | 
+| 23/01/28 | PRG | 큐/스택 | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) | [🖍](https://github.com/heerucan/PS/discussions/38) | 
+| 23/02/03 | PRG | BFS | [단어변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) | [🖍](https://github.com/heerucan/PS/discussions/39) | 
+| 23/02/04 | BOJ | 플로이드 워샬 | [케빈 베이커의 6단계 법칙](https://www.acmicpc.net/problem/1389) | [🖍](https://github.com/heerucan/PS/discussions/40) | 
+| 23/02/05 | PRG | 구현 | [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | [🖍](https://github.com/heerucan/PS/discussions/41) | 
+| 23/02/07 | PRG | 구현 | [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | [🖍](https://github.com/heerucan/PS/discussions/42) | 
+| 23/02/09 | PRG | 구현 | [멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048) | [🖍](https://github.com/heerucan/PS/discussions/43) | 
+
+
 
