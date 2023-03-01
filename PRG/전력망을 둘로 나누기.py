@@ -55,12 +55,17 @@ def solution(n, wires):
         graph[b].remove(a)
          
         # 간선을 끊고, a번 노드로 시작 노드를 지정해 dfs를 돌고, 방문된 노드 개수를 count에 저장
+        # a집합과 나머지 b집합의 개수 체크
         countA = dfs(a, visited, graph)
         countB = n - countA
+
+        # answer 초기값이 -1인 이유는, 모든 그래프가 연결되지 않아 모든 노드를 한 번에 방문하지 못하는 경우 -1 반환
+        # 실패했다는 것을 알릴 수 있음
         if answer != -1:
             # 연결된 노드의 개수 (즉, 방문한 노드의 개수 = count)이면
             answer = min(answer, abs(countA-countB))
         else:
+            # answer에 그 전에 저장한 값을 가져와서 반환
             answer = abs(countA-countB)
         # 계산 후에는 다시 원상복구를 위해 추가
         graph[a].append(b)
