@@ -33,9 +33,6 @@ def solution(n, wires):
    
     # [[], [3], [3], [1, 2, 4], [3, 5, 6, 7], [4], [4], [4, 8, 9], [7], [7]]
 
-    # wires에서 전선이 끊어진 모든 경우의 수를 돌면서 최솟값을 찾아야 함.
-    # 예를 들어, wires = [[1,2], [2,3], [3,4]]면 각각을 제거한 경우 총 3가지를 기록해야 한다.
-
     # x노드를 시작으로 방문된 노드의 개수 반환
     def dfs(x, visited, graph):
         visited[x] = True
@@ -45,6 +42,9 @@ def solution(n, wires):
                 count += dfs(i, visited, graph)
         return count
 
+    # wires에서 전선이 끊어진 모든 경우의 수를 돌면서 최솟값을 찾아야 함.
+    # 예를 들어, wires = [[1,2], [2,3], [3,4]]면 각각을 제거한 경우 총 3가지를 기록해야 한다.
+
     for i in range(len(wires)):
         a, b = wires[i]
         visited = [False]*(n+1)
@@ -53,8 +53,8 @@ def solution(n, wires):
         # graph[1]에 연결된 3을 제거하고, graph[3]에 연결된 1을 제거
         graph[a].remove(b)
         graph[b].remove(a)
-
-        # a번 노드로 시작 노드를 지정해 dfs를 돌고, 방문된 노드 개수를 count에 저장
+         
+        # 간선을 끊고, a번 노드로 시작 노드를 지정해 dfs를 돌고, 방문된 노드 개수를 count에 저장
         countA = dfs(a, visited, graph)
         countB = n - countA
         if answer != -1:
