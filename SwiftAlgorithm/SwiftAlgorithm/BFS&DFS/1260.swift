@@ -76,16 +76,12 @@ func bfs(_ x: Int) {
     
     visited[x] = true
     queue.append(x)
-//    print(queue,"=========")
     while !queue.isEmpty {
-        print(queue,"=========")
         let newX = queue.removeFirst()
         print(newX, terminator: " ")
         
         for i in graph[newX] {
-            print(graph[newX],"##########")
             if visited[i] == false {
-                print(i,"-!!!!!!!!!")
                 queue.append(i)
                 visited[i] = true
             }
@@ -93,7 +89,7 @@ func bfs(_ x: Int) {
     }
 }
 
-//dfs(v)
+dfs(v)
 print()
 visited = Array(repeating: false, count: n+1)
 bfs(v)
