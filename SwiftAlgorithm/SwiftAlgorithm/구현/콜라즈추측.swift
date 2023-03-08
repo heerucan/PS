@@ -28,4 +28,4 @@ func solution(_ num: Int) -> Int {
     return cnt
 }
 
-print(solution(16))
+//print(solution(16))
