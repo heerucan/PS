@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B34A25429B8BF480013C3EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34A25329B8BF480013C3EA /* main.swift */; };
+		5B5B41E129BA2A3B003ABC5B /* 부족한 금액 계산하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B41E029BA2A3B003ABC5B /* 부족한 금액 계산하기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5B34A25329B8BF480013C3EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5B5B41DE29BA25F2003ABC5B /* 수박수박수박수박수박수?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수박수박수박수박수박수?.swift"; sourceTree = "<group>"; };
+		5B5B41E029BA2A3B003ABC5B /* 부족한 금액 계산하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부족한 금액 계산하기.swift"; sourceTree = "<group>"; };
 		5BCB23BF29B211F3000F49F6 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCB23C229B211F3000F49F6 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
 		5BCB23CA29B214CE000F49F6 /* 2644.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2644.swift; sourceTree = "<group>"; };
@@ -46,14 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B34A25129B8A1CD0013C3EA /* 구현 */ = {
+		5B34A25129B8A1CD0013C3EA /* PRGLevelOne */ = {
 			isa = PBXGroup;
 			children = (
 				5BCB23DC29B6215C000F49F6 /* 콜라즈추측.swift */,
 				5BCB23DE29B6259F000F49F6 /* 핸드폰 번호 가리기.swift */,
 				5B5B41DE29BA25F2003ABC5B /* 수박수박수박수박수박수?.swift */,
+				5B5B41E029BA2A3B003ABC5B /* 부족한 금액 계산하기.swift */,
 			);
-			name = "구현";
+			name = PRGLevelOne;
 			path = "구현";
 			sourceTree = "<group>";
 		};
@@ -79,7 +82,7 @@
 				5BCB23C229B211F3000F49F6 /* input.swift */,
 				5BCB23DB29B61F76000F49F6 /* Stack&Queue */,
 				5BCB23C929B214B4000F49F6 /* BFS&DFS */,
-				5B34A25129B8A1CD0013C3EA /* 구현 */,
+				5B34A25129B8A1CD0013C3EA /* PRGLevelOne */,
 			);
 			path = SwiftAlgorithm;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5B41E129BA2A3B003ABC5B /* 부족한 금액 계산하기.swift in Sources */,
 				5B34A25429B8BF480013C3EA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
