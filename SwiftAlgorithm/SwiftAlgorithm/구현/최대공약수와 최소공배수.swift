@@ -28,7 +28,7 @@ func solution(_ n:Int, _ m:Int) -> [Int] {
     
     var total = Array(Set(nArr).intersection(Set(mArr)))
     total.sort()
-    var last = total[total.count-1]
+    let last = total[total.count-1]
     return [last, (n/last) * (m/last) * last]
 }
 
