@@ -72,4 +72,4 @@ func getMaxSafeDistance(_ graph: [[Int]]) {
     print(arr[0])
 }
 
-getMaxSafeDistance(graph)
+//getMaxSafeDistance(graph)
