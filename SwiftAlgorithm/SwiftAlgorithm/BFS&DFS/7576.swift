@@ -18,6 +18,8 @@ for _ in 0..<n {
     graph.append(readLine()!.split(separator: " ").map { Int(String($0))! })
 }
 
+print(graph)
+
 let dx = [1, -1, 0, 0]
 let dy = [0, 0, 1, -1]
 
