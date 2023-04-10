@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		5B5B41E129BA2A3B003ABC5B /* 부족한 금액 계산하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B41E029BA2A3B003ABC5B /* 부족한 금액 계산하기.swift */; };
 		5B5B41E529BA3751003ABC5B /* 최대공약수와 최소공배수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B41E429BA3751003ABC5B /* 최대공약수와 최소공배수.swift */; };
-		5B5F864329CEF18900037C1E /* 7569.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F864229CEF18900037C1E /* 7569.swift */; };
 		5BA4E04E29C1E5C4008BE590 /* 이상한 문자 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4E04D29C1E5C4008BE590 /* 이상한 문자 만들기.swift */; };
 		5BA4E05029C210F3008BE590 /* 3진법 뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4E04F29C210F3008BE590 /* 3진법 뒤집기.swift */; };
+		5BCF299E29E41B77006DB91C /* 2961.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF299D29E41B77006DB91C /* 2961.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B4DA02029DC4ECF00FB6ED9 /* 6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6603.swift; sourceTree = "<group>"; };
 		5B57ECCD29C8628D00A3A8E1 /* 17086.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17086.swift; sourceTree = "<group>"; };
 		5B5B41DE29BA25F2003ABC5B /* 수박수박수박수박수박수?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수박수박수박수박수박수?.swift"; sourceTree = "<group>"; };
 		5B5B41E029BA2A3B003ABC5B /* 부족한 금액 계산하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부족한 금액 계산하기.swift"; sourceTree = "<group>"; };
@@ -47,6 +48,8 @@
 		5BCB23D929B5F08D000F49F6 /* 10026.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10026.swift; sourceTree = "<group>"; };
 		5BCB23DC29B6215C000F49F6 /* 콜라즈추측.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "콜라즈추측.swift"; sourceTree = "<group>"; };
 		5BCB23DE29B6259F000F49F6 /* 핸드폰 번호 가리기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "핸드폰 번호 가리기.swift"; sourceTree = "<group>"; };
+		5BCF299D29E41B77006DB91C /* 2961.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2961.swift; sourceTree = "<group>"; };
+		5BDCC72829DC232B006C6A02 /* 2156.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2156.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				5BCB23C229B211F3000F49F6 /* input.swift */,
 				5BCB23DB29B61F76000F49F6 /* Stack&Queue */,
 				5BCB23C929B214B4000F49F6 /* BFS&DFS */,
+				5BDCC72729DC2322006C6A02 /* DP */,
 				5B34A25129B8A1CD0013C3EA /* PRGLevelOne */,
 			);
 			path = SwiftAlgorithm;
@@ -116,6 +120,7 @@
 				5BC893D829CC4BF100CA6E5F /* 2468.swift */,
 				5B5F864029CEC41A00037C1E /* 2583.swift */,
 				5B5F864229CEF18900037C1E /* 7569.swift */,
+				5B4DA02029DC4ECF00FB6ED9 /* 6603.swift */,
 			);
 			path = "BFS&DFS";
 			sourceTree = "<group>";
@@ -125,6 +130,15 @@
 			children = (
 			);
 			path = "Stack&Queue";
+			sourceTree = "<group>";
+		};
+		5BDCC72729DC2322006C6A02 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				5BDCC72829DC232B006C6A02 /* 2156.swift */,
+				5BCF299D29E41B77006DB91C /* 2961.swift */,
+			);
+			path = DP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5B41E129BA2A3B003ABC5B /* 부족한 금액 계산하기.swift in Sources */,
-				5B5F864329CEF18900037C1E /* 7569.swift in Sources */,
+				5BCF299E29E41B77006DB91C /* 2961.swift in Sources */,
 				5BA4E05029C210F3008BE590 /* 3진법 뒤집기.swift in Sources */,
 				5BA4E04E29C1E5C4008BE590 /* 이상한 문자 만들기.swift in Sources */,
 				5B5B41E529BA3751003ABC5B /* 최대공약수와 최소공배수.swift in Sources */,
