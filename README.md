@@ -46,6 +46,7 @@
 | 23/02/05 | PRG | 구현 | [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | [🖍](https://github.com/heerucan/PS/discussions/41) | 
 | 23/02/07 | PRG | 구현 | [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | [🖍](https://github.com/heerucan/PS/discussions/42) | 
 | 23/02/09 | PRG | 구현 | [멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048) | [🖍](https://github.com/heerucan/PS/discussions/43) | 
+| 23/04/17 | BOJ | 백트레킹 | [n과m(1)(2)(3)(4)](https://www.acmicpc.net/problem/15649) | O | 
 
 
 
