@@ -15,8 +15,8 @@
 
 -->
 
-| 날짜 | 사이트 | 알고리즘 | 문제 제목 | 코드 풀이 |
-| :--: | :--: | :--: | :--: | :--: |
+| 날짜 | 사이트 | 알고리즘 | 문제 제목 | 코드 풀이 또는 기억할 것! |
+| :--: | :--: | :--: | :--: | :-- |
 | 22/12/26 | BOJ | DP | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [🖍](https://github.com/heerucan/PS/discussions/9) |
 | 22/12/26 | BOJ | DP | [파도반 수열](https://www.acmicpc.net/problem/9461) | [🖍](https://github.com/heerucan/PS/discussions/10) |
 | 22/12/27 | PRG | 구현 | [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=python3) | [🖍](https://github.com/heerucan/PS/discussions/11) |
@@ -46,7 +46,7 @@
 | 23/02/05 | PRG | 구현 | [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | [🖍](https://github.com/heerucan/PS/discussions/41) | 
 | 23/02/07 | PRG | 구현 | [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | [🖍](https://github.com/heerucan/PS/discussions/42) | 
 | 23/02/09 | PRG | 구현 | [멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048) | [🖍](https://github.com/heerucan/PS/discussions/43) | 
-| 23/04/17 | BOJ | 백트레킹 | [n과m(1)(2)(3)(4)](https://www.acmicpc.net/problem/15649) | O | 
-
+| 23/04/17 | BOJ | 백트레킹 | [n과m(1)(2)(3)(4)](https://www.acmicpc.net/problem/15649) | 시간초과 이슈 : 문자열에 더해서 한 번에 출력하자! | 
+| 23/04/18 | BOJ | 백트레킹 | [n과m(5~10)](https://www.acmicpc.net/problem/15656) | 시간초과 이슈 : n개 중 m개는 O(n^m)인데 map은 O(n) 따라서 O(n^m*n)이므로 주의하자. | 
 
 
