@@ -53,6 +53,11 @@
 		5BCB23DC29B6215C000F49F6 /* 콜라즈추측.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "콜라즈추측.swift"; sourceTree = "<group>"; };
 		5BCB23DE29B6259F000F49F6 /* 핸드폰 번호 가리기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "핸드폰 번호 가리기.swift"; sourceTree = "<group>"; };
 		5BCF299D29E41B77006DB91C /* 2961.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2961.swift; sourceTree = "<group>"; };
+		5BD17E3829EEA674007EEC7A /* 15654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15654.swift; sourceTree = "<group>"; };
+		5BD17E3A29EEA734007EEC7A /* 15655.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15655.swift; sourceTree = "<group>"; };
+		5BD17E3C29EEA8E3007EEC7A /* 15657.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15657.swift; sourceTree = "<group>"; };
+		5BD17E3E29EEB4C1007EEC7A /* 15664.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15664.swift; sourceTree = "<group>"; };
+		5BD17E4029EEBB4E007EEC7A /* 15656.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15656.swift; sourceTree = "<group>"; };
 		5BDCC72829DC232B006C6A02 /* 2156.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2156.swift; sourceTree = "<group>"; };
 		5BEF390C29ED6E0B00B87502 /* 15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649.swift; sourceTree = "<group>"; };
 		5BEF390E29ED808C00B87502 /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
@@ -162,6 +167,11 @@
 				5BEF390E29ED808C00B87502 /* 15650.swift */,
 				5BEF391029ED80A100B87502 /* 15651.swift */,
 				5BEF391229ED846500B87502 /* 15652.swift */,
+				5BD17E3829EEA674007EEC7A /* 15654.swift */,
+				5BD17E3A29EEA734007EEC7A /* 15655.swift */,
+				5BD17E4029EEBB4E007EEC7A /* 15656.swift */,
+				5BD17E3C29EEA8E3007EEC7A /* 15657.swift */,
+				5BD17E3E29EEB4C1007EEC7A /* 15664.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";

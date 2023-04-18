@@ -21,6 +21,7 @@ var answerString = ""
 
 func backtracking() {
     if answer.count == m {
+        // 시간초과가 나서 문자열에 더해서 한 번에 출력하는 방식
         answerString += answer.map { String($0) }.joined(separator: " ")
         answerString += "\n"
         return
