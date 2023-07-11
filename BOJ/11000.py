@@ -26,4 +26,4 @@ for i in range(1, n):
         heapq.heappush(endConference, q[i][1])
 
 # 종료 시간이 빠른 회의방부터 다음 회의를 이어서 개최해야 해서, 우선순위 큐를 이용해 정렬을 유지
-print(endConference)
+print(len(endConference))
