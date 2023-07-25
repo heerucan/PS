@@ -7,9 +7,7 @@ def solution(participant, completion):
     parDict = defaultdict(int) 
     for value in participant:
         parDict[value] += 1
-    
-    # {'mislav': 2, 'stanko': 1, 'ana': 1}
-    
+        
     for com in completion:
         parDict[com] -= 1
         
