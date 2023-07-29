@@ -1,20 +1,17 @@
 # 스택을 사용한다! - 짝맞추는 것은 
+from collections import deque
+
 def solution(s):
-    answer = -1
-    stack = []
+    queue = deque()
         
     for i in range(len(s)):
-        if not stack: # stack이 비어있으면 값을 넣어줘야 -> 비교할 수 
-            stack.append(s[i])
+        if not queue: # stack이 비어있으면 값을 넣어줘야 -> 비교할 수 있음
+            queue.append(s[i])
         else:
-            if stack[-1] == s[i]: #같으면
-                stack.pop()
-            elif stack[-1] != s[i]: #다르면
-                stack.append(s[i])
+            if queue[-1] == s[i]: #같으면
+                queue.pop()
+            elif queue[-1] != s[i]: #다르면
+                queue.append(s[i])
     
-    if stack: 
-        answer = 0
-    else: 
-        answer = 1
-            
-    return answer
+    if queue: return 0
+    else: return 1
