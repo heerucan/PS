@@ -4,12 +4,16 @@ def solution(numbers):
     # 1000 이하의 수라서 앞에서 3자리수끼리 비교하기 위함
     numbers = list(map(str, numbers))
     numbers.sort(key = lambda x: x*3, reverse=True)
-    cnt = 0
     
-    for i in numbers:
-        if i == '0':
-            cnt += 1
-    if len(numbers) == cnt:
-        return '0'
-    else:
-        return ''.join(numbers)
+    # 00 -> 0으로 만들기 위한 식
+    # cnt = 0
+    # for i in numbers:
+    #     if i == '0':
+    #         cnt += 1
+    # if len(numbers) == cnt:
+    #     return '0'
+    # else:
+    #     return ''.join(numbers)
+    
+    # 위에 대신
+    return str(int(''.join(numbers)))
