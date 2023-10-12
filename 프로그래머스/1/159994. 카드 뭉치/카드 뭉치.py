@@ -8,8 +8,6 @@ def solution(cards1, cards2, goal):
             sentence.append(cards1.pop(0))
         elif cards2 and g == cards2[0]:
             sentence.append(cards2.pop(0))
-            
-    if sentence == goal:
-        return "Yes"
-    else:
-        return "No"
+        else:
+            return "No"
+    return "Yes"         
