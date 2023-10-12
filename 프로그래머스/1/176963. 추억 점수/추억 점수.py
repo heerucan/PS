@@ -1,13 +1,10 @@
 # yearning 추억점수
 # 딕셔너리 사용
+    
 def solution(name, yearning, photo):
     answer = []
-    grade = []
     
-    for i in range(len(name)):
-        grade.append([name[i], yearning[i]])
-    
-    dic = dict(grade)
+    dic = dict(zip(name, yearning))
 
     for i in photo:
         cnt = 0
