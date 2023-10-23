@@ -1,8 +1,6 @@
 def solution(players, callings):    
     # {이름:등수}
-    dic = {}
-    for idx, val in enumerate(players):
-        dic[val] = idx
+    dic = {key:idx for idx, key in enumerate(players)}
                    
     for i in callings:
         idx = dic[i]
