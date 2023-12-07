@@ -1,26 +1,20 @@
-# 점수개수 k // 마지막날까지 출연한 가수 점수들 score
-# 매일 발표된 최하위 점수를 반환
+import heapq
 
 def solution(k, score):
     answer = []
-    fame_board = []
-            
-    if k >= len(score):
-        for i in range(len(score)):
-            fame_board.append(score[i])
-            fame_board.sort()
-            answer.append(fame_board[0])
-    else:
-        for i in range(k):
-            fame_board.append(score[i])
-            fame_board.sort()
-            answer.append(fame_board[0])
+    score_h = []
 
-        for i in range(k, len(score)):
-            if fame_board[0] < score[i]:
-                min = fame_board.pop(0)
-                fame_board.append(score[i])
-                fame_board.sort()
-            answer.append(fame_board[0])
-    
+    while score:
+        score_value = score.pop(0)
+        # 길이가 k보다 크면 -> 마지막 추가값이 min값보다 크면 -> h에 넣고 + 기존 가장 작은 값 삭제 + 그후 작은 값 출력
+        if len(score_h) >= k and min(score_h) <= score_value:
+            heapq.heappush(score_h,score_value)
+            heapq.heappop(score_h)
+            answer.append(score_h[0])
+        elif len(score_h) >= k and min(score_h) > score_value:
+            answer.append(score_h[0])
+        elif len(score_h) < k:
+            heapq.heappush(score_h,score_value)
+            answer.append(score_h[0])
+        
     return answer
