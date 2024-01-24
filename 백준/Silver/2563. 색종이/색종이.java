@@ -33,15 +33,8 @@ public class Main {
                     // 색종이 영역 체크 및 카운팅
                     if ((a <= x && x < aa) && (b <= y && y < bb)) {
                         graph[x][y] = true;
+                        cnt += 1;
                     }
-                }
-            }
-        }
-        for (int x = 0; x < 100; x++) {
-            for (int y = 0; y < 100; y++) {
-                // 이미 붙인 영역은 pass
-                if (graph[x][y]) {
-                    cnt += 1;
                 }
             }
         }
