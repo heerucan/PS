@@ -3,6 +3,10 @@ import java.util.*;
 import java.io.*;
 
 /**
+ * 15686 치킨배달 
+ * @author 김루희 
+ * 메모리 : 16364KB
+ * 시간 : 220ms
  * 생각과정
  * 1. n개 중 m개의 치킨집을 구하고, 그 조합들 중에서 치킨거리가 가장 작을 치킨집을 구하자!
  * 2. 즉, 조합! backtracking - 순열안됨 -> start, level 매개변수로 받자
